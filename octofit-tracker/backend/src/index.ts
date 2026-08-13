@@ -2,7 +2,7 @@ import express from 'express';
 import './config/database';
 
 const app = express();
-const PORT = Number(process.env.PORT) || 8000;
+const PORT = 8000;
 const codespaceName = process.env.CODESPACE_NAME;
 const apiBaseUrl = codespaceName
   ? `https://${codespaceName}-8000.app.github.dev`
