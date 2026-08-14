@@ -1,0 +1,29 @@
+.app-shell {
+  max-width: 1200px;
+}
+
+.navbar {
+  border: 1px solid rgba(13, 110, 253, 0.08);
+}
+
+.nav-link {
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: rgba(13, 110, 253, 0.08);
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.alert {
+  border-radius: 0.75rem;
+}

@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 model: GPT-5.5
 description: 'Configure MongoDB and seed octofit_db for the Octofit multi-tier application'
 ---
@@ -14,5 +14,5 @@ Requirements:
 4. Add a seed script at `src/scripts/seed.ts`.
 5. Include this help/description text in the seed script comments or logs:
    `Seed the octofit_db database with test data`.
-6. Insert realistic sample data for all collections.
+6. Insert realistic sample data for all collections.a
 7. Verify data creation with API route responses.
